@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sequence Screen</title>
+<title>Final Screen</title>
 
 <style>
   body {
@@ -25,21 +25,21 @@
   .line {
     opacity: 0;
     margin: 10px 0;
+    transition: opacity 0.5s;
   }
 
   .show {
     opacity: 1;
-    transition: opacity 0.5s;
   }
 
-  .final {
+  #final {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     font-size: 10vw;
-    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -56,8 +56,13 @@
   <div class="line">Fuck You</div>
 </div>
 
+<div id="final">Fuck You</div>
+
 <script>
   const lines = document.querySelectorAll('.line');
+  const final = document.getElementById('final');
+  const container = document.getElementById('container');
+
   let index = 0;
 
   function showNextLine() {
@@ -66,9 +71,9 @@
       index++;
       setTimeout(showNextLine, 500);
     } else {
-      // Final full screen
       setTimeout(() => {
-        document.body.innerHTML = '<div class=\"final\">Fuck You</div>';
+        container.style.display = 'none';
+        final.style.display = 'flex'; // stays permanently
       }, 800);
     }
   }
