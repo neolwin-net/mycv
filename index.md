@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -22,9 +21,9 @@
   <!-- Header -->
   <div class="flex justify-between items-center mb-6">
     <div>
-      <h1 class="text-3xl font-bold">Your Name</h1>
-      <p class="text-gray-500">Network Operations Engineer</p>
-      <p class="text-sm">Email | Phone | GitHub | LinkedIn</p>
+      <h1 class="text-3xl font-bold">Lwin Ko Aung</h1>
+      <p class="text-gray-500">IP/MPLS Service Provider Network Engineer</p>
+      <p class="text-sm">neolwin.net@gmail.com | +79963627618 | https://neolwin-net.github.io/sp-dc-net | neo8143</p>
     </div>
 
     <div class="flex gap-2">
@@ -35,7 +34,7 @@
 
   <!-- Summary -->
   <div class="bg-white dark:bg-gray-800 p-4 rounded shadow mb-4">
-    <h2 class="text-xl font-semibold mb-2">Summary</h2>
+    <h2 class="text-xl font-semibold mb-2">About me</h2>
     <p>
       Network Operations Engineer with experience in dual-ISP, BGP, OSPF, MPLS, and IPsec VPN.
       Skilled in troubleshooting, high availability, and data center networking.
