@@ -17,7 +17,8 @@ body{
 
     background:
     linear-gradient(rgba(10,40,90,.75),rgba(10,40,90,.75)),
-    url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1800");
+    /*url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1800");*/
+    url("https://statics.mylandingpages.co/static/aaanxdmf26c522mpaaapycm22qmuab44/image/c7bb22cd30404053a1af01f90b21f0f7.webp");
 
     background-size:cover;
     background-position:center;
